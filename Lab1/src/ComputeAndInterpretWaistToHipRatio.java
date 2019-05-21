@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class ComputeAndInterpretWaistToHipRatio {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter your name: ");
+		String name = input.nextLine();
+		
+		System.out.println("What is your gender (male/female): ");
+		String gender = input.nextLine();
+		
+		System.out.println(name + ", enter your waist size in centimeters (cm): ");
+		int waist = input.nextInt();
+		input.nextLine();
+		
+		System.out.println(name + ", enter your hip size in centimeters (cm): ");
+		int hip = input.nextInt();
+		input.nextLine();
+		
+		double waistHipRatio = (double) waist/hip;
+		
+		System.out.println(name + ", your waist to hip ratio is " + waistHipRatio + ".");
+
+		if (gender.equals("male")||gender.equals("Male")) {
+			if (waistHipRatio > 1.00) {
+				System.out.println("You are at high health risk!");
+			}
+			else if (waistHipRatio >= 0.96 && waistHipRatio <= 1.00) {
+				System.out.println("You are at moderate health risk!");
+			}
+			else if (waistHipRatio <= 0.95) {
+				System.out.println("You are at low health risk!");
+			}
+		}
+		else if (gender.equals("female")||gender.equals("Female")) {
+			if (waistHipRatio > 0.85) {
+				System.out.println("You are at high health risk!");
+			}
+			else if (waistHipRatio >= 0.81 && waistHipRatio <= 0.84) {
+				System.out.println("You are at moderate health risk!");
+			}
+			else if (waistHipRatio <= 0.80) {
+				System.out.println("You are at low health risk!");
+			}
+		}
+		
+		input.close();
+	}
+}
