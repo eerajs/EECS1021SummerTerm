@@ -143,8 +143,9 @@ public class RockPaperScissors {
 				player2Score += 1;
 			}	
 		}
+		
 		// Based on the score the winner is chosen and the results are displayed
-		else if (player1Score > player2Score) {
+		if (player1Score > player2Score) {
 			System.out.println("Game Over: " + player1 + " wins!");
 		}
 		else if (player2Score > player1Score) {
