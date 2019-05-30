@@ -13,7 +13,7 @@ public class PrintBetweenNumbers3 {
 		// Initializes and runs the program until loop = false
 		boolean loop = true;
 		
-		// Runs the code until loop == 0
+		// Runs the code until loop = false
 		while (loop) {
 			
 			// Asks the user to enter the lower bound
