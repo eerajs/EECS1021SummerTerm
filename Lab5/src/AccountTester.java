@@ -1,7 +1,7 @@
 public class AccountTester {
-
+	
 	public static void main(String[] args) {
-
+		
 		/* Create an international account with owner initial balance */
 		Account acc1 = new Account("Jim", 'i', 100.0);
 		/* Create a domestic account with owner initial balance */

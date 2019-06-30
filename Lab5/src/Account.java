@@ -4,7 +4,7 @@ public class Account {
 	char type;
 	double amount;
 	
-	Account(String name, char type, double amount) {
+	public Account(String name, char type, double amount) {
 		this.name = name;
 		this.type = type;
 		this.amount = amount;
@@ -26,11 +26,11 @@ public class Account {
 		String result = "";
 		
 		if (type == 'i') {
-			result = "International account with owner " + this.name + "has current balance $" + this.amount;
+			result = "International account with owner " + this.name + " has current balance $" + this.amount;
 			return result;
 		}
 		else if (type == 'd') {
-			result = "Domestic account with owner " + this.name + "has current balance $" + this.amount;
+			result = "Domestic account with owner " + this.name + " has current balance $" + this.amount;
 			return result;
 		}
 		return result;
