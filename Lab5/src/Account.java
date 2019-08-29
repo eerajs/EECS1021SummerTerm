@@ -4,7 +4,7 @@ public class Account {
 	char type;
 	double amount;
 	
-	public Account(String name, char type, double amount) {
+	Account(String name, char type, double amount) {
 		this.name = name;
 		this.type = type;
 		this.amount = amount;
@@ -33,6 +33,7 @@ public class Account {
 			result = "Domestic account with owner " + this.name + " has current balance $" + this.amount;
 			return result;
 		}
+		
 		return result;
 	}
 	

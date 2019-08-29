@@ -99,7 +99,7 @@ public class AccountTester {
 		System.out.println(acc1.getDescription());
 		System.out.println(acc4.getDescription());
 		/* transfer from an international account to a domestic account */
-		acc1.transferTo(acc4, 60.0);
+		acc1.transferTo(acc4, 1.0);
 		System.out.println("after transfer...");
 		System.out.println(acc1.getDescription());
 		System.out.println(acc4.getDescription());

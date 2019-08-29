@@ -1,0 +1,54 @@
+(1.1)-------------------------------
+Americano
+4.7
+2
+(1.2)-------------------------------
+null
+0.0
+0
+Americano
+4.7
+2
+(2)-------------------------------
+mem1
+20.0
+Alan's number of orders: 0
+Alan needs to pay: 0.0
+(3)-------------------------------
+mem2
+0.0
+Mark's number of orders: 0
+Mark needs to pay: 0.0
+40.0
+(4)-------------------------------
+Alan's number of orders: 1
+Product of Alan's 1st order: Americano
+Price of Alan's 1st order: 4.7
+Quantity of Alan's 1st order: 2
+Alan needs to pay: 9.4
+(5)-------------------------------
+Alan's number of orders: 2
+Product of Alan's 1st order: Americano
+Price of Alan's 1st order: 4.7
+Quantity of Alan's 1st order: 2
+Product of Alan's 2nd order: Caffe Latte
+Price of Alan's 2nd order: 5.5
+Quantity of Alan's 2nd order: 1
+Alan needs to pay: 14.9
+(6)-------------------------------
+Number of members: 0
+Alan is a memebr: false
+Mark is a memebr: false
+(7)-------------------------------
+Number of members: 2
+Member 1's id: mem1
+Member 2's id: mem2
+Alan is a memebr: true
+Mark is a memebr: true
+(8)-------------------------------
+Member with id "mem3" exists: false
+Alan's new balance: 5.1
+Mark's new balance: 40.0
+(9)-------------------------------
+Alan's number of orders: 0
+Alan needs to pay: 0.0

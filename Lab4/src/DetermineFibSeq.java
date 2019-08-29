@@ -32,7 +32,7 @@ public class DetermineFibSeq {
 			
 			for (int i = 0; i<=19; i++) {
 				if (newValue[i] != 0) {
-				seq++;
+					seq++;
 				}		
 			}
 			
@@ -41,7 +41,7 @@ public class DetermineFibSeq {
 			for (int j = 0; j < seq; j++) {
 				if (newValue[j] != 0) {
 					fibSeq[j] = newValue[j];	
-					}
+				}
 			}
 			
 			for(int i = 2; i<=19;i++) {
@@ -89,9 +89,12 @@ public class DetermineFibSeq {
 			
 			if (cont.equals("N")) {
 				loop = false;
+				
 				System.out.println("Bye!");
 			}
 		}
+
+
 		
 		input.close();
 	}
